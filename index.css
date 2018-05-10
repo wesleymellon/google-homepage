@@ -1,0 +1,39 @@
+body, html {
+  width: 100%;
+  height: 100%;
+}
+
+div{
+  font-family: arial, sans-serif;
+  font-size: small;
+  position: relative;
+}
+
+.logo{
+  height: 92px;
+  width: 272px;
+  display: block;
+  text-align: -webkit-center;
+  padding-top: 109px;
+  position: relative;
+  margin: auto;
+}
+
+.search-wrapper{
+  margin: auto;
+  width: 800px;
+  text-align: center;
+}
+
+.search{
+  margin: auto;
+  width: 600px;
+}
+
+input{
+  width: 403px;
+  height: 34px;
+  box-shadow: 0 1px 4px rgb(185, 185, 185);
+  border: 1px solid #ccc;
+  border-radius: 2px;
+}
