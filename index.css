@@ -9,6 +9,10 @@ div{
   position: relative;
 }
 
+input:focus{
+  outline: none;
+}
+
 .logo{
   height: 92px;
   width: 272px;
@@ -17,12 +21,14 @@ div{
   padding-top: 109px;
   position: relative;
   margin: auto;
+  padding-bottom: 25px;
 }
 
 .search-wrapper{
   margin: auto;
   width: 800px;
   text-align: center;
+  border-radius: 2px;
 }
 
 .search{
@@ -31,9 +37,12 @@ div{
 }
 
 input{
-  width: 403px;
-  height: 34px;
+  width: 413px;
+  height: 14px;
   box-shadow: 0 1px 4px rgb(185, 185, 185);
   border: 1px solid #ccc;
   border-radius: 2px;
+  font-size: 16px;
+  font-family: arial, sans-serif;
+  padding: 15px;
 }
