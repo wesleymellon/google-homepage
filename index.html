@@ -6,15 +6,21 @@
   </head>
   <body>
     <header>
-      <div>About</div>
-      <div>Store</div>
-      <div>Gmail</div>
-      <div>Images</div>
-      <div>Pic</div>
-      <div>Pic2</div>
-      <div>Pic3</div>
+      <div id="header-wrapper">
+        <span id="header-left">
+          <a>About</a>
+          <a>Store</a>
+        </span>
+        <span id="header-right">
+          <a>Gmail</a>
+          <a>Images</a>
+          <img id="icon" src="apps.png" alt="squares">
+          <img id="alarm" src="alarm.png" alt="alarm">
+          <div id="dot"></div>
+        </span>
+      </div>
     </header>
-    <img class="logo" src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png">
+    <img id="logo" src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" alt="Google's logo">
     <div class="search-wrapper">
       <form class="search" action="http://www.google.com" method="post">
         <input type="text" name="search">
@@ -24,12 +30,16 @@
     <div>I'm Feeling Lucky</div>
   </body>
   <footer>
-    <div>
-      <div>Advertising</div>
-      <div>Business</div>
-      <div>Privacy</div>
-      <div>Terms</div>
-      <div>Settings</div>
+    <div id="footer-wrapper">
+      <span id="footer-left">
+        <a href="#">Advertising</a>
+        <a href="#">Business</a>
+      </span>
+      <span id="footer-right">
+        <a href="#">Privacy</a>
+        <a href="#">Terms</a>
+        <a href="#">Settings</a>
+      </span>
     </div>
   </footer>
 </html>
