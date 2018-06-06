@@ -75,6 +75,10 @@ input:focus{
   outline: none;
 }
 
+#logo_wrapper{
+  padding-top: 85px;
+}
+
 #logo{
   height: 92px;
   width: 272px;
@@ -154,7 +158,26 @@ header a{
   height: 30px;
   background-color: gray;
   border-radius: 100%;
-  margin: 0 4px 0 4px;
+  margin: 0 12px 0 4px;
+}
+
+#buttons{
+  position: relative;
+  text-align: center;
+}
+
+button{
+  position: relative;
+  margin: 0 auto;
+  background-color: #f2f2f2;
+  color: #757575;
+  border: 1px solid #f2f2f2;
+  border-radius: 2px;
+  font-size: 12.5px;
+  font-weight: bold;
+  height: 36px;
+  width: 126px;
+  margin: 25px 4px;
 }
 
 #footer-wrapper{
